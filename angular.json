@@ -121,7 +121,7 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/github-jobs-app",
-            "netlifyToken": "04kjbcbVPdc9wJykqOIuEgtvIHJ73wr8gP4cJJr-cbk",
+            "netlifyToken": "",
             "siteId": "286b7f14-3a12-489e-9768-50a47709f388"
           }
         }

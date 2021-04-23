@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { GithubJobsService } from './services/github-jobs.service';
 
 @Component({
@@ -9,8 +8,6 @@ import { GithubJobsService } from './services/github-jobs.service';
 })
 export class AppComponent implements OnInit {
   title = 'github-jobs-app';
-  faMoon = faMoon;
-  faSun = faSun;
 
   constructor(public jobsService: GithubJobsService) {}
 

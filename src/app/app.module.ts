@@ -10,13 +10,15 @@ import { SearchbarComponent } from './job-board/searchbar/searchbar.component';
 import { HeaderComponent } from './header/header.component';
 import { JobDetailsComponent } from './job-details/job-details.component';
 import { GithubJobsService } from './services/github-jobs.service';
+import { JobListingsComponent } from './job-board/job-listings/job-listings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchbarComponent,
     HeaderComponent,
-    JobDetailsComponent
+    JobDetailsComponent,
+    JobListingsComponent
   ],
   imports: [
     BrowserModule,

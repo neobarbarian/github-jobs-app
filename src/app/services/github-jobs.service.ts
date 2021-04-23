@@ -6,7 +6,6 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class GithubJobsService {
-  private corsProxy: string = 'https://cors-anywhere.herokuapp.com/';
   private baseJobsUrl: string = 'https://jobs.github.com/positions.json';
 
   constructor(private http: HttpClient) { }

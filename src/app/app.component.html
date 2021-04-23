@@ -1,65 +1,10 @@
 <div class="header-background"></div>
 
 <div class="container">
-  <div class="row header justify-content-between">
-    <div class="col-4">
-      devjobs
-    </div>
-    <div class="col-3 text-right">
-      <fa-icon size="xs" [icon]="faSun" transform="shrink-5 up-10"></fa-icon>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <fa-icon size="xs" [icon]="faMoon" transform="shrink-5 up-10"></fa-icon>
-    </div>
-  </div>
+  <app-header></app-header>
 
-  <div class="row searchbar">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Filter by title, companies, expertise...">
-      <input type="text" class="form-control" placeholder="Filter by location...">
-      <div class="form-control">
-        <div class="form-inline centered-lg justify-content-between">
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="customControlInline">
-            <label class="custom-control-label" for="customControlInline">Full Time Only</label>
-          </div>
+  <app-searchbar></app-searchbar>
 
-          <button type="button" class="btn btn-search">Search</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row board">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <div class="ad-logo">logo</div>
-          <div class="content">
-            <div class="date-and-type">posted when &middot; job status</div>
-            <div class="position-title">post title</div>
-            <div class="company-name">company name</div>
-            <div class="cities align-bottom">cities, cities, cities, cities, cities, cities</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-body">ad</div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-body">ad</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row load-button justify-content-center">
-    <button type="button" class="btn btn-load-more">Load More</button>
-  </div>
+  <app-job-listings></app-job-listings>
 
 </div>
